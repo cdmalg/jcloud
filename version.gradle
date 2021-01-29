@@ -1,0 +1,6 @@
+buildscript {
+    ext {
+        bVersion = '2.4.2'
+        lombokVersion = '1.18.16'
+    }
+}

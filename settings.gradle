@@ -1,0 +1,2 @@
+include ':j1-api', 'j1-common', 'j1-service-one'
+rootProject.name = 'jcloud'

@@ -1,0 +1,2 @@
+rootProject.name = 'j1-api'
+includeFlat 'j1-common'

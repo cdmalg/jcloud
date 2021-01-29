@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+        mavenCentral()
+        jcenter()
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+group = 'com.jcloud'
+version = '1.0.0-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+dependencies {
+//    implementation 'org.springframework.boot:spring-boot-starter-web'
+//    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+

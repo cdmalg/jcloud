@@ -1,0 +1,17 @@
+buildscript {
+    apply from: 'version.gradle'
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${bVersion}")
+    }
+}
+allprojects {
+    repositories {
+        mavenLocal()
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+        mavenCentral()
+        jcenter()
+    }
+}
